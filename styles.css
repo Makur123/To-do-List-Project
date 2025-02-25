@@ -1,0 +1,47 @@
+body { 
+    background: radial-gradient(circle, rgba(0,0,0,0.03) 0%, rgba(253,187,45,1) 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#container {
+    background: rgb(41, 33, 33);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #0033ff;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-btn, .delete-btn {
+    color: crimson;
+    cursor: pointer;
+    border: none;
+    padding: 3px 5px;
+    background: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid gray;
+}
